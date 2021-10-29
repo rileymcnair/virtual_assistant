@@ -6,7 +6,7 @@ Web application that supports a myriad of queries interacted with either by voic
 queries include: YouTube video search and playback, Twitter search, general/informational questions, WolframAlpha calculations, and more!
 Responses to queries are either displayed to the user or in the case of YouTube and Twitter, the user is automatically
 redirected to the appropriate first-party page. Algorithm decides how to respond and which service to call based on keywords from user's query.
-This application is server equipped and automatically sets up a local host server for each instanace. 
+This application is server equipped and automatically sets up a local host server for each instance. 
 
 ## How To Use
 
