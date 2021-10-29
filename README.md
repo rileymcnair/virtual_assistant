@@ -11,22 +11,22 @@ This application is server equipped and automatically sets up a local host serve
 ## How To Use
 
 * Getting Started:
-  ./server.py will run the entire program and set up the local host server
+  * ./server.py will run the entire program and set up the local host server
 * Necessary Modules 
   * wolframalpha
-    https://pypi.org/project/wolframalpha/
+    * https://pypi.org/project/wolframalpha/
   * wikipedia
-    https://pypi.org/project/wikipedia/
+    * https://pypi.org/project/wikipedia/
   * speech_recognition
-    https://pypi.org/project/SpeechRecognition/
+    * https://pypi.org/project/SpeechRecognition/
 * How to form specific queries
   * YouTube
-    "play [video] by/from [creator]"
-    "play [song] by/from [artist]"
-    "play [title] video"
+    * "play [video] by/from [creator]"
+    * "play [song] by/from [artist]"
+    * "play [title] video"
   * Twitter 
-    "(show me) tweets about [topic]"
-    "(show me) tweets from [Twitter user]"
+    * "(show me) tweets about [topic]"
+    * "(show me) tweets from [Twitter user]"
     
    
 ## Features
