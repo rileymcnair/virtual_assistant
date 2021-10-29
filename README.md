@@ -10,7 +10,7 @@ This application is server equipped and automatically sets up a local host serve
 
 ## How To Use
 
-* Getting Started:
+* Getting Started
   * ./server.py will run the entire program and set up the local host server
 * Necessary Modules 
   * wolframalpha
@@ -19,7 +19,7 @@ This application is server equipped and automatically sets up a local host serve
     * https://pypi.org/project/wikipedia/
   * speech_recognition
     * https://pypi.org/project/SpeechRecognition/
-* How to form specific queries
+* Forming Specific Queries
   * YouTube
     * "play [video] by/from [creator]"
     * "play [song] by/from [artist]"
