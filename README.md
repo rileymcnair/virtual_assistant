@@ -11,7 +11,7 @@ This application is server equipped and automatically sets up a local host serve
 ## How To Use
 
 * Getting Started
-  * ./server.py will run the entire program and set up the local host server
+  * ./server.py will run the entire program and set up the local host server on port 8000
 * Necessary Modules 
   * wolframalpha
     * https://pypi.org/project/wolframalpha/
