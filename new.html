@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./new.css">
+    <title>Food Bank Helper</title>
+</head>
+
+<body>
+    
+
+    <div id='topnav' class="topnav">
+        <a id='donorNav' >Make a donation</a>
+        <a id='orgNav'>Organizations</a>
+    </div>
+
+    <div id='userChoice' class='userChoice' style="cursor: pointer;">
+        <div id="donorChoice" class="split left">
+            <div class="centered">
+              <h2 id='donorText' >I'm a donor</h2>
+            </div>
+        </div>
+          
+          <div id="orgChoice" class="split right">
+            <div class="centered">
+                <h2 id='orgText' >I'm an organization</h2>
+            </div>
+          </div>
+    </div>
+ 
+
+   <!-- <p>Enter your location below:</p> -->
+    <div class='edit' id='editDiv'>
+        <img id='editButton' src='data:image/png;base64,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' alt="">
+        <h2 id="editText">Add a donation!</h2>
+    </div>
+
+    <div id="subform" >
+        <input id='orgNameInput' class="input" type="text" >
+        <input id="searchbox" class="searchbox input" type="text" />
+        <input id="submitButton" type="submit" />
+    </div>
+    
+    <br>
+    
+     <div id="map"></div> 
+     
+     <div id="table-container">
+        <table id='donorTable' class='table'>
+            <th style="font-size: larger;">Locations near you to donate:</th>
+        </table>
+        <table id='orgTable' class='table'>
+            <th style="font-size: larger;">Donations ready for pickup:</th>
+
+        </table>
+    </div> 
+        <!-- <table id='donorTable' class='table'>
+            <th>Locations near you to donate</th>
+        </table>
+        <table id='orgTable' class='table'>
+            <th>Donations ready for pickup</th>
+        </table> -->
+     
+    <script src='./new.js'></script>
+
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBW6d1HmfJdOJENlT-Pz2QxvdGU8UlTfbo&callback=initMap&libraries=places">
+    </script>
+
+</body>
+
+</html>

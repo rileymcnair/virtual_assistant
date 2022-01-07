@@ -1,0 +1,190 @@
+body {
+  font-family: Open Sans,sans-serif;
+
+margin:0px;
+padding:0px;
+}
+
+
+.input {
+  border-radius: 8px;
+
+    width: 75%;
+    height: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    font-size: 20px;
+
+    background-color: white;
+    color:black;
+    font-size: 90%;
+    overflow:scroll;
+    border: 2px solid #e4e3e3;
+}
+
+
+
+#map{
+  float: left;
+
+    display:none;
+    width:50%;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#table-container {
+  width: 49%;
+  max-width: 50%;
+  padding: 0px;
+  margin: 0px;
+  overflow-y: scroll;
+  max-height: 500px;
+  height: 500px;
+  float:right;
+  background-color: #e4e3e3;
+  }
+  
+  .table {
+  width: 100%;
+  color: white;
+  margin:0px;
+  padding: 0px;
+  
+  overflow: hidden;
+  background-color: #e4e3e3;
+  }
+  .table th {
+    overflow: hidden;
+    color: black;
+    background-color: white;
+    overflow: scroll;
+  padding: 7px;
+  }
+  .table td {
+    overflow: hidden;
+    color: black;
+    background-color: white;
+    padding: 7px;
+    overflow: scroll;
+  }
+  tr {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
+
+#editButton {
+    display:none;
+    width:50px;
+    height: 50px;
+    float: left;
+    padding-right: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#editText {
+  padding-top: 16px;
+  font-weight: normal;
+}
+#subform {
+    display: none;
+    
+    background-color: #e4e3e3;
+    height: 112px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+
+#submitButton {
+  font-family: Open Sans,sans-serif;
+  border-radius: 4px;
+  border: 1px solid #333;
+  height: 20px;
+  width: 10%;
+float: right;
+margin-right: 5%;
+margin-top: 18px;
+background-color:white;
+cursor: pointer;
+}
+#submitButton:hover {
+  background-color: rgb(185, 182, 182);
+}
+
+  
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: block;  
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+/* Split the screen in half */
+.split {
+  height:100%;
+  width: 50%;
+  position: fixed;
+  /* z-index: 1; */
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: rgb(221, 78, 21);
+}
+#donorText {
+  color: white;
+}
+
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: rgb(61, 60, 60);
+}
+#orgText {
+  color: white;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  width:fit-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
